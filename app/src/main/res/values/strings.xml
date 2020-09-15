@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ca1</string>
+    <string name="hint1"><font size="20">Name</font></string>
+    <string name="hint2"><font size="20">Reg</font></string>
+    <string name="hint3"><font size="20">Cgpa</font></string>
+    <string name="hint4"><font size="20">Branch</font></string>
+</resources>

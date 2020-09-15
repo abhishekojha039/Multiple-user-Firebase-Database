@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageMath"
+            android:layout_width="68dp"
+            android:layout_height="55dp"
+            android:src="#9653ed">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/txtMath"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:textAlignment="viewStart">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
